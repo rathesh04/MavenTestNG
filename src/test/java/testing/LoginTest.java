@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 public class LoginTest
 {
  
-	@Test (dataProvider="loginData")
+	@Test 
 	public void loginTest(String username, String password)
 	{
 		WebDriver driver= new ChromeDriver();
